@@ -13,6 +13,8 @@
 		19F617262049000B0093DCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F617252049000B0093DCC6 /* Assets.xcassets */; };
 		19F617292049000B0093DCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F617272049000B0093DCC6 /* LaunchScreen.storyboard */; };
 		19F617342049000B0093DCC6 /* PiRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F617332049000B0093DCC6 /* PiRemoteTests.swift */; };
+		65924D7055AE54F483F89724 /* Pods_PiRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6318038A497C44B78A390CE8 /* Pods_PiRemote.framework */; };
+		ABA58A2CBE65C92B6DD163A6 /* Pods_PiRemoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368D2BCAA6EB8B82C8DF8C1C /* Pods_PiRemoteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		19F6172F2049000B0093DCC6 /* PiRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F617332049000B0093DCC6 /* PiRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiRemoteTests.swift; sourceTree = "<group>"; };
 		19F617352049000B0093DCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368D2BCAA6EB8B82C8DF8C1C /* Pods_PiRemoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiRemoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F828A6E1501F9BE5D1429C /* Pods-PiRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRemote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiRemote/Pods-PiRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		6318038A497C44B78A390CE8 /* Pods_PiRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD174B5A399C7AD3BBFA2E5 /* Pods-PiRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRemote.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiRemote/Pods-PiRemote.release.xcconfig"; sourceTree = "<group>"; };
+		DB21A843A13276F1DCDF5AC1 /* Pods-PiRemoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRemoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiRemoteTests/Pods-PiRemoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F131508C50810A668950E7CB /* Pods-PiRemoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRemoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiRemoteTests/Pods-PiRemoteTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65924D7055AE54F483F89724 /* Pods_PiRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA58A2CBE65C92B6DD163A6 /* Pods_PiRemoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				19F6171D2049000B0093DCC6 /* PiRemote */,
 				19F617322049000B0093DCC6 /* PiRemoteTests */,
 				19F6171C2049000B0093DCC6 /* Products */,
+				8FD4ED73A06D7B93304E8A34 /* Pods */,
+				EEE5F1188B318D98209EFB59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = PiRemoteTests;
 			sourceTree = "<group>";
 		};
+		8FD4ED73A06D7B93304E8A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58F828A6E1501F9BE5D1429C /* Pods-PiRemote.debug.xcconfig */,
+				CDD174B5A399C7AD3BBFA2E5 /* Pods-PiRemote.release.xcconfig */,
+				DB21A843A13276F1DCDF5AC1 /* Pods-PiRemoteTests.debug.xcconfig */,
+				F131508C50810A668950E7CB /* Pods-PiRemoteTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEE5F1188B318D98209EFB59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6318038A497C44B78A390CE8 /* Pods_PiRemote.framework */,
+				368D2BCAA6EB8B82C8DF8C1C /* Pods_PiRemoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19F617382049000B0093DCC6 /* Build configuration list for PBXNativeTarget "PiRemote" */;
 			buildPhases = (
+				CF0B9236E89BEB3136154EF7 /* [CP] Check Pods Manifest.lock */,
 				19F617172049000B0093DCC6 /* Sources */,
 				19F617182049000B0093DCC6 /* Frameworks */,
 				19F617192049000B0093DCC6 /* Resources */,
+				065E42D7B2AA3A5E0865AF70 /* [CP] Embed Pods Frameworks */,
+				459DDF72F2F69EA19D4171C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19F6173B2049000B0093DCC6 /* Build configuration list for PBXNativeTarget "PiRemoteTests" */;
 			buildPhases = (
+				E69BE3C4D9296A4E241B8224 /* [CP] Check Pods Manifest.lock */,
 				19F6172B2049000B0093DCC6 /* Sources */,
 				19F6172C2049000B0093DCC6 /* Frameworks */,
 				19F6172D2049000B0093DCC6 /* Resources */,
+				25A2FA0E5639A45370247D5D /* [CP] Embed Pods Frameworks */,
+				9B0551C5FF310A3BBC036138 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065E42D7B2AA3A5E0865AF70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PiRemote/Pods-PiRemote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiRemote/Pods-PiRemote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A2FA0E5639A45370247D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiRemoteTests/Pods-PiRemoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		459DDF72F2F69EA19D4171C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiRemote/Pods-PiRemote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0551C5FF310A3BBC036138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiRemoteTests/Pods-PiRemoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF0B9236E89BEB3136154EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiRemote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69BE3C4D9296A4E241B8224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiRemoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19F617172049000B0093DCC6 /* Sources */ = {
@@ -351,6 +491,7 @@
 		};
 		19F617392049000B0093DCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F828A6E1501F9BE5D1429C /* Pods-PiRemote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +507,7 @@
 		};
 		19F6173A2049000B0093DCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD174B5A399C7AD3BBFA2E5 /* Pods-PiRemote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +523,7 @@
 		};
 		19F6173C2049000B0093DCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB21A843A13276F1DCDF5AC1 /* Pods-PiRemoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +541,7 @@
 		};
 		19F6173D2049000B0093DCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F131508C50810A668950E7CB /* Pods-PiRemoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
